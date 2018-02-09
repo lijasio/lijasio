@@ -35,10 +35,7 @@ background-size: auto;
 	color:#fff !important;
 }
 
-.ui-content .choice_list  .ui-btn-active .ui-link-inherit,.ui-btn-down-c a.ui-link-inherit,#home .ui-btn-down-c a.ui-link-inherit
-{
-	color:#fff !important;
-}
+
 
 img
 {
@@ -53,166 +50,47 @@ img
 .ui-grid-a .ui-block-a, .ui-grid-a .ui-block-b
 {
 	width: 48%;
-	padding:1%;
+	padding:0%;
 }
-
-/* title bar */
 
 /*** home **/
-#branding
+#banniere
 {
 	background:url(images/logosdis42.png) no-repeat;
-	width:440px;
-	height:200px;
-	text-indent:-999px;
+	width:430px;
+	height:180px;
 	font-size:0px;
-	margin:-10px auto 0 auto;
-	border-bottom:0px solid rgba(65, 38, 37, 0.6);
+	margin:-1px auto 0 auto;
+	text-align:center;
 }
 
-.choice_list h1
+
+/*** actu **/
+#bouton_facebook
 {
-	margin-top:30px;
-	font-size:18px;
-	color:rgb(65, 38, 37);
-	font-weight:normal;
-	font-style:italic;
-	padding:5px 0 6px 50px;
-	background:url(images/pagination.png) no-repeat;
+	width: 100px;
+	height: 80px;
 }
 
-#home .choice_list h1
+#bouton_twitter
 {
-	background-position: 0 -16px;
+	width: 100px;
+	height: 80px;
 }
 
-#home .choice_list  h3
+#bouton_instagram
 {
-	padding-top:10px;
-	color:rgb(63, 41, 39);
+	width: 100px;
+	height: 80px;
 }
 
-#home .choice_list .ui-btn-active  a.ui-link-inherit h3
+
+/*** Img Chapitres ***/
+#img_listview
 {
-	color:#fff;
+	width: 90px;
+	height: 80px;
 }
 
-.choice_list  img
-{
-	padding:3px;
-}
 
-/** Chapitres JSP 1 **/
-#chapitres_jsp_1 .choice_list h1
-{
-	background-position: 0 -72px;
-	margin-bottom:20px;
-}
 
-#chapitres_jsp_1 .choice_list a
-{
-	padding-top:10px;
-	color:rgb(63, 41, 39);
-}
-
-#chapitres_jsp_1 .ui-listview-filter a
-{
-	padding-top:0px;
-}
-
-/** choix du restaurant **/
-#choisir_restau .choice_list h1
-{
-	background-position: 0 -132px;
-	margin:10px auto 20px auto;
-}
-
-#choisir_restau .choice_list a
-{
-	padding-top:10px;
-	color:rgb(63, 41, 39);
-}
-
-#choisir_restau .classement
-{
-	display:inline-bloc;
-	background:url(images/pagination.png) no-repeat  0 -182px;
-	height:22px;
-	text-indent:-999px;
-	font-size:0px;
-}
-
-#choisir_restau .one
-{
-	width:30px;
-}
-
-#choisir_restau .two
-{
-	width:55px;
-}
-
-#choisir_restau .three
-{
-	width:75px;
-}
-
-#choisir_restau .four
-{
-	width:99px;
-}
-
-/** restau **/
-#restau_infos,#contact_infos
-{
-	color:rgb(63, 41, 39);
-	font-size:14px;
-}
-
-#restau_infos h1,#contact_infos h2,#notation h2
-{
-	color:rgb(63, 41, 39);
-	font-size:18px;
-	margin:0 auto 5px auto;
-}
-
-#restau_infos p,#restau_infos ul,#contact_infos p
-{
-	margin:2px auto 5px auto;
-}
-
-#restau_infos ul
-{
-	padding:0 0 0 10px;
-}
-
-#restau_infos ul  li
-{
-	list-style-type:square;
-	margin-left:5px;
-}
-
-#restau_infos .ui-block-b .ui-btn
-{
-	font-size:12px;
-}
-
-#restau_infos .ui-block-b .ui-btn-inner
-{
-	padding:5px;
-}
-
-#contact_buttons a
-{
-	color:rgb(63, 41, 39);
-}
-
-.ui-icon-maps
-{
-	background: rgb(63, 41, 39) url(images/maps.png) no-repeat;
-}
-
-.ui-icon-tel
-{
-	background: rgb(63, 41, 39) url(images/phone.png) no-repeat;
-}
