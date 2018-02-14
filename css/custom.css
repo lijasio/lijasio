@@ -54,18 +54,6 @@ img
 }
 
 /*** home **/
-#banniere
-{
-	background:url(images/logosdis42.png) no-repeat;
-	width:430px;
-	height:180px;
-	font-size:0px;
-	margin:-1px auto 0 auto;
-	text-align:center;
-}
-
-
-/*** actu **/
 #bouton_facebook
 {
 	width: 100px;
